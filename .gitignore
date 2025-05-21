@@ -23,3 +23,14 @@ go.work.sum
 
 # env file
 .env
+
+*example/
+__debug*
+
+# pebbledb files
+*.sst
+*.log
+CURRENT
+LOCK
+MANIFEST*
+OPTIONS*
